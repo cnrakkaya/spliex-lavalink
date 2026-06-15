@@ -26,10 +26,12 @@ plugins:
     allowSearch: true
     allowDirectVideoIds: true
     allowDirectPlaylistIds: true
+
+    # WEB login hatası verdiği için WEB'i kapatıyoruz.
     clients:
-      - WEB
-      - WEB_REMIX
       - MUSIC
+      - ANDROID
+      - IOS
 
 logging:
   level:
