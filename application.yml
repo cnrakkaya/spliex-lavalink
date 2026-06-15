@@ -1,0 +1,11 @@
+server:
+  port: ${PORT}
+  address: 0.0.0.0
+
+lavalink:
+  server:
+    password: "${LAVALINK_PASSWORD}"
+
+logging:
+  level:
+    root: INFO
