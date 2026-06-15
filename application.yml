@@ -28,8 +28,14 @@ plugins:
     allowDirectPlaylistIds: true
 
     clients:
-      - MUSIC
-      - WEB
+      - identifier: MUSIC
+        options:
+          playback: true
+          searching: true
+      - identifier: WEB
+        options:
+          playback: true
+          searching: true
 
 logging:
   level:
