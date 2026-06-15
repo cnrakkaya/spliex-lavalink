@@ -26,16 +26,9 @@ plugins:
     allowSearch: true
     allowDirectVideoIds: true
     allowDirectPlaylistIds: true
-
     clients:
-      - identifier: MUSIC
-        options:
-          playback: true
-          searching: true
-      - identifier: WEB
-        options:
-          playback: true
-          searching: true
+      - WEB
+      - MUSIC
 
 logging:
   level:
